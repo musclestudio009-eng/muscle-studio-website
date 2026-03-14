@@ -1,0 +1,82 @@
+html{
+  scroll-behavior: smooth;
+}
+html, body {
+overflow-x: hidden;
+}
+
+section, div {
+  scroll-margin-top: 50px; 
+}
+
+/* body{
+   font-family: 'Forte', sans-serif;
+                                                
+} */
+
+.gym-icon{
+  width: 70px;
+  filter: brightness(0) saturate(100%) invert(89%) sepia(79%) saturate(749%) hue-rotate(3deg) brightness(103%) contrast(105%);
+}
+
+.acumin-pro-regular{
+
+      font-family: 'acumin-pro-regulartserrat', sans-serif;
+
+    }
+
+    .inter{
+
+      font-family: 'Inter', sans-serif;
+
+    }
+    .oswald{
+
+      font-family: 'Oswald', sans-serif;
+
+    }
+
+/* .acumin-pro {
+
+font-family: "acumin-pro", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.acumin-pro-regular {   
+font-family: "acumin-pro", sans-serif;
+font-weight: 800;
+font-style: normal;
+} */
+
+
+  .swiper-pagination-bullet {
+    background: #ffffff;
+    opacity: 0.4;
+  }
+  .swiper-pagination-bullet-active {
+    background: #FFEF01;
+    opacity: 1;
+  }
+  .equipmentSwiper {
+    background: #0A0A0A;
+  }
+
+  .swiper-slide {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+
+  .swiper-slide-active {
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet {
+    background: #ffffff;
+    opacity: 0.3;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #FFEF01;
+    opacity: 1;
+  }
